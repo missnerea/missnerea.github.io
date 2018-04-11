@@ -4,6 +4,11 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
         <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
 
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -60,8 +65,24 @@
               </div>
   </section>
   </div>
-  <div class="card">
+  <div class="card" id="chart">
 	<canvas id="myChart" width="400" height="400"></canvas>
+  </div>
+  
+  <div class="container" id="projo">
+	<div class="card">
+		<div class="card-image waves-effect waves-block waves-light">
+		  <img class="activator" src="https://s13.favim.com/orig/161129/aesthetic-pink-theme-themes-Favim.com-4902623.jpeg">
+		</div>
+		<div class="card-content">
+		  <span class="card-title activator grey-text text-darken-4">Grammy Gram<i class="material-icons right">more_vert</i></span>
+		  <p><a href="grammygram.herokuapp.com">View Site</a></p>
+		</div>
+		<div class="card-reveal">
+		  <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+		  <p>Here is some more information about this product that is only revealed once clicked on.</p>
+		</div>
+	  </div>
   </div>
 
 
@@ -174,7 +195,7 @@ body {
 .image {
     position:absolute;
     width:100%; 
-    height:50%; 
+    height:78%; 
     background:green;
     background-image:url('https://www.xmple.com/wallpaper/pink-gradient-blue-linear-1920x1080-c2-ffb6c1-b0c4de-a-300-f-14.svg');
     background-size:cover;
@@ -182,7 +203,7 @@ body {
 .content {
     position:absolute; 
     width:100%; 
-    top:80%; 
+    top:110%; 
     height: 100px;
 }
 .section{
@@ -247,10 +268,10 @@ color: #fff;
 	color: #fff;
 }
 
-.card {
+#chart {
     position:absolute; 
     width:60%; 
-    top:145%; 
+    top:175%; 
     height: 50px;
 	margin-left: 45%;
 	transform: translate(-50%, -50%);
@@ -275,6 +296,16 @@ color: #fff;
   	width: 300px;
   	height: 375px;
 
+}
+#projo {
+    position:absolute; 
+    width:60%; 
+    top:175%; 
+    height: 50px;
+	margin-left: 45%;
+	transform: translate(-50%, -50%);
+  	width: 300px;
+  	height: 375px;
 }
 
 </style>
