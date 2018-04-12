@@ -44,7 +44,7 @@
             <ul class="navbar">
                     <li><a href="#">Home</a></li><!-- 
                  --><li><a href="#1">Bio</a></li><!-- 
-				 --><li><a href="#2">Projects</a></li><!--
+				 --><li><a href="#projo">Projects</a></li><!--
 				 --><li><a href="#3">Contact</a></li>
 				 
                 </ul>
@@ -61,7 +61,9 @@
                 <div class="section-header">          
                   <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">About</h2>
                   <hr class="lines wow zoomIn" data-wow-delay="0.3s">
-				  <p class="section-subtitle wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">I am a Full Stack Web Developer who loves creating intuitive and dynamic user experiences.</p>
+				  <p class="section-subtitle wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">I am a Full Stack Web Developer who loves creating intuitive and dynamic user experiences.I've always been drawn to the overlap between design and development. My skills are:design, front end to back end development. I enjoy each aspect, and love building sites from start to finish, for clients all over the world.
+						
+					</p>
 				  <h2 class="skills"> <strong>Skills</strong></h2>
 				  <hr class="lines wow zoomIn" data-wow-delay="0.3s">
 				  <h2 class="project"> <strong>Projects</strong></h2>
@@ -98,9 +100,18 @@
 				</div>
 			  </div>
 		 </div>
+		 <div class="footer">
+				<p>Copyright © 2018. All Rights Reserved.</p>
+			  </div>
 		
 </body>
 <style>
+	@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .container,.card,.card-description,.card-image {
+    width:100%;
+  }
+}
 
 	*{
 	margin: 0;
@@ -394,46 +405,15 @@ body {
 .card-description {
   padding: 5px 25px 20px;
 }
-footer {
-  background: #292f35;
-  padding: 20px 0;
-}
-
-.footer-links {
-  line-height: 48px;
-}
-
-.footer-links li {
-  float: left;
-}
-
-.footer-links li a {
-  color: #fff;
-  margin-right: 15px;
-  transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-}
-
-.footer-links li a:hover {
-  color: #61D2B4;
-}
-
-.copyright {
-  margin-top: 10px;
-  float: right;
-}
-
-.copyright p {
-  color: #fff;
-}
-
-.copyright p a {
-  color: #fff;
-}
-
-.copyright p a:hover {
-  color: #61D2B4;
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:gray;
+   color: white;
+   text-align: center;
+   padding: 5px 25px 20px;
 }
 
 </style>
